@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Roboto';
+    color: #070707;
+}
+h1{
+    font-family: 'Roboto';
+    color: #070707;
+}
+header {
+    font-family: 'Roboto';
+    padding: 20px;
+    background: #ffffff;
+    display: flex;
+    font-size: 20px;
+  }
+
+  .hdr_container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1900px;
+    display: flex;
+    align-items: center;
+}
+.hd_content{
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 1000px;
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+}
+
+.line{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 1000px;
+    display: flex;
+    align-self: center;
+height: 0px;
+left: 0px;
+top: 30px;
+
+border: 1px solid #828282;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.mainContainer{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    width: 1000px;
+    justify-content: space-between;
+}
+.name{ 
+    top: 100px;
+    font-family: 'Roboto';
+    font-size: 47.3392px;
+line-height: 59px;
+
+color: #070707;
+}
+.pos{
+    position: relative;
+    font-family: 'Roboto';
+    top: 75px;
+}
+.language{
+    position: relative;
+    top: 30px;
+    height: 80px;
+}
+.PhotoCont{
+    display: flex;
+    justify-content: center;
+}
+.Photo{
+    position: relative;
+    background-image: url("img/BSPP2267.png");
+    width: 1000px;
+    top: 150px;
+}
+
+.rectangle{
+    padding: 80px;
+    position: relative;
+    top: 300px;
+    background-color: #F6F6F6;
+    display: flex;
+}
+.rectContent{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rect_h{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.rect_p{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.rectangle1{
+    position: relative;
+    top: 430px;
+}
+.rect1Content{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rectImg{
+    width: 150px;
+}
+.imgContent{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+}
+.rectangle2{
+    padding: 80px;
+    position: relative;
+    top: 550px;
+    background-color: #F6F6F6;
+    display: flex;
+}
+.rect2Content{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rect1_h{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.pImg{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.footContent{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rectangle3{
+    padding: 80px;
+    position: relative;
+    top: 500px;
+    background-color: #ffffff;
+    display: flex;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    
+}
+.pBtn{
+    position: relative;
+    top: 10px;
+    left: 22px;
+    color: white;
+}
+.footImg{
+    width: 40px;
+}
+.imgContainer{
+    position: relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.Sub{
+    position: relative;
+    top: 150px;
+    color: #828282;
+    text-align: center;
+}
+@media (max-width: 375px){
+    
+}
